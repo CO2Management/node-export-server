@@ -1,0 +1,10 @@
+{
+  "name": "co2m-chart-exporting",
+  "scripts": {
+    "install": "npm explore highcharts-export-server -- npm run install",
+    "start": "npm explore highcharts-export-server -- highcharts-export-server --enableServer 1 --styledMode 1 --port $PORT"
+  },
+  "dependencies": {
+    "highcharts-export-server": "2.0.18"
+  }
+}
