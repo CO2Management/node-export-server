@@ -1,0 +1,8 @@
+{
+  "enableServer": "1",
+  "logLevel": "3",
+  "styledMode": "1",
+  "rateLimit": "30",
+  "skipKey": "smarttrackers",
+  "skipToken": "4d14324b16dadbd586d2002bc3eb8337a684cd774e0123d3646b37f6c2d0ee97"
+}

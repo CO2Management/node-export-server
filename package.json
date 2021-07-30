@@ -2,7 +2,7 @@
   "name": "co2m-chart-exporting",
   "scripts": {
     "install": "HIGHCHARTS_VERSION=7.1.1 ACCEPT_HIGHCHARTS_LICENSE=1 HIGHCHARTS_USE_STYLED=1 npm explore highcharts-export-server -- npm run install",
-    "start": "npm explore highcharts-export-server -- highcharts-export-server --enableServer 1 --logLevel 3 --styledMode 1 --rateLimit 30 --skipKey smarttrackers --skipToken 4d14324b16dadbd586d2002bc3eb8337a684cd774e0123d3646b37f6c2d0ee97"
+    "start": "npm explore highcharts-export-server -- highcharts-export-server --fromFile ../../options.json"
   },
   "dependencies": {
     "highcharts-export-server": "2.0.18"
