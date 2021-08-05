@@ -1,6 +1,6 @@
 {
   "enableServer": "1",
-  "logLevel": "3",
+  "logLevel": "4",
   "styledMode": "1",
   "rateLimit": "30",
   "skipKey": "smarttrackers",
