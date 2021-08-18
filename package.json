@@ -1,7 +1,9 @@
 {
   "name": "co2m-chart-exporting",
   "scripts": {
-    "install": "HIGHCHARTS_VERSION=9.1.0 ACCEPT_HIGHCHARTS_LICENSE=1 HIGHCHARTS_USE_STYLED=1 npm explore highcharts-export-server -- npm run install",
+    "preinstall": "HIGHCHARTS_VERSION=9.1.0 ACCEPT_HIGHCHARTS_LICENSE=1 HIGHCHARTS_USE_STYLED=1 npm explore highcharts-export-server -- npm run preinstall",
+    "postinstall": "HIGHCHARTS_VERSION=9.1.0 ACCEPT_HIGHCHARTS_LICENSE=1 HIGHCHARTS_USE_STYLED=1 npm explore highcharts-export-server -- npm run postinstall",
+    "install": "HIGHCHARTS_VERSION=9.1.0 ACCEPT_HIGHCHARTS_LICENSE=1 HIGHCHARTS_USE_STYLED=1 node ./build.js",
     "start": "npm explore highcharts-export-server -- highcharts-export-server --fromFile ../../options.json"
   },
   "dependencies": {
